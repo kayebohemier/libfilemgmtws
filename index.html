@@ -33,9 +33,10 @@
 						<li><a href="#three">Version Control</a></li>
 						<li><a href="#four">Documentation</a></li>
 						<li><a href="#five">Managing Collaboration</a></li>
+						<li><a href="#six">Concluding Remarks</a></li>
 					</ul>
 				</nav>
-				<footer>
+				<!-- <footer>
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -43,7 +44,7 @@
 						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
-				</footer>
+				</footer> -->
 			</section>
 
 		<!-- Wrapper -->
@@ -58,7 +59,7 @@
 									<header class="major">
 										<h2>Where Did I Put That File?</h2>
 										<p>Personal data management in professional contexts.</p>
-										<p align="center";><img src="images/banner.png"/></p>
+										<p align="center";><img src="images/banner.png" alt="This is an XKCD Comics image of someone calling down a giant hole of deprecated file formats while a second person is deep in the middle of finding old high school poetry that was never deleted from ler hard drive."/></p>
 										<p align="center";><em>Munroe, R. (n.d.). "Old Files." XKCD. xkcd.com/1360</em></p>
 									</header>
 									<p>We teach research data management and see researchers benefit from thoughtful and mindful data management practices. Over the years, we've noticed ...</p>
@@ -113,8 +114,31 @@
 								</p>
 									
 									<h4>How does this work in practice?</h4>
-
-
+										<p>On a Mac, you can customize the keyboard shortcut for Spotlight in the Mac settings, but it should be in your top menu bar as a magnifying glass icon. A good keyboard shortcut is <em>command-space</em> because one rarely needs to use that combination otherwise.</p>
+										<p align="center";><img src="images/mac-searching-spotlight.png" width=80% alt="Mac Spotlight search image."></p>
+										<p>In Windows, hit the windows icon key on your keyboard, then type in your search. With Cortana turned on, you can search across all files on OneDrive.</p>
+										<p align="center";><img src="images/windows-searching-cortana.png" width=60% alt="Image of searching for files in Windows."></p>
+									<h4>What about in email?</h4>
+										<p>For <strong>Structurers</strong>, some of these tips may be helpful:</p>
+										
+										<ul class="feature-icons">
+											<li class="fa-cubes">Organize by fiscal year (not relevant for all folders) &mdash; Good for mental mapping.</li>
+											<li class="fa-cubes">Some tradeoffs between searchability and structure. When in a subfolder, you often can’t search the enclosing folders.</li>
+										</ul>
+										
+										<p>In practice, that looks like this:</p>
+										<p align="center";><img src="images/structurer-email-inbox.png" width=30% alt="Image of heavily organized folders in an email client."></p>
+										
+										<p>For <strong>Searchers</strong>, some of these tips may be helpful:</p>
+										
+										<ul class="feature-icons">
+											<li class="fa-cubes">Know the terms you’re looking for &mdash; this works best for known items.</li>
+											<li class="fa-cubes">Syntax and operators vary across mail clients.</li>
+											<li class="fa-cubes">You can add informal tags to an email chain by forwarding it to yourself.</li>
+										</ul>
+										
+										<p>In practice, that looks like this:</p>
+										<p align="center";><img src="images/searcher-email-inbox.png" width=80% alt="Image of heavily organized folders in an email client."></p>
 
 									<!-- ><ul class="feature-icons">
 										<li class="fa-code">Write all the code</li>
@@ -129,408 +153,147 @@
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-									</div>
+									<h3>Version Control</h3>
+									<p>Let’s start with a test: Can you tell which of these is the final version?</p>
+									<p>
+											<ul>
+												<li>EBSCO JR1 2014.xlsx</li>
+												<li>EBSCO JR1 2014 cost per use added.xlsx</li>
+												<li>EBSCO JR1 2014 for johndoe.xlsx</li>
+												<li>EBSCO JR1 2014 FINAL FOR SENDING.xlsx</li>
+												<li>EBSCO JR1 2014 corrected.xlsx</li>
+												<li>EBSCO JR1 2014 corrected FINAL.xlsx</li>
+												<li>EBSCO JR1 2014 for johndoe SEND THIS ONE.xlsx</li>
+												<li>EBSCO JR1 2014 for johndoe FINAL CORRECTED.xlsx</li>
+											</ul>
+										</p>
+											<p>How about these?
+											
+											<ul>
+												<li>outreach handout 2014-2015.pdf</li>
+												<li>outreach handout FINAL 2014-15.pdf</li>
+												<li>outreach handout yale fonts 2014.pdf</li>
+												<li>outreach handout 2014 USE THIS ONE.pdf</li>
+												<li>outreach handout GIVE TO EVERYONE.pdf</li>
+												<li>outreach handout workshop list 2014 USE THIS ONE.pdf</li>
+												<li>outreach handout workshop list 2014-2015 FINAL VERSION.pdf</li>
+											</ul>
+										</p>
+									
+										<p><strong>Probably not.</strong> <font color="red">You can’t tell which of these is actually the final version without wasting time. From the file names, you also have no idea whether all of these xlsx files (or handouts) are actually the same file or different ones.</font>
+										</p>
+										
+										<p>When doing version control, the following tips are a great starting place:
+											
+											<ul class="feature-icons">
+												<li class="fa-coffee">Keep a pristine, original, identifiable copy.</li>
+												<li class="fa-coffee">Use version control to always find the most recent version of a file.</li>
+												<li class="fa-coffee">Include version in file naming convention.</li>
+												<li class="fa-coffee">Use tools like Git, Box, or Drive with automatic versioning.</li>
+											</ul>
+											
+											One great tip is to put the original information and data in a zip file, as shown in the image below. When something is kept in a zip file, it’s difficult to accidentally modify the files &mdash; you’d have to unzip first. 
+										</p>
+										
+										<p align="center";><img src="images/version-control-example.png" width=60% alt="Version control screenshot."></p>
+									
+										<h4>In the Cloud?</h4>
+										
+										<p>Most people use cloud services for some (or all) of their work &mdash; and it’s important to be aware of your versioning and document management context there. Whenever you use cloud services for versioning and document management, ask yourself a few questions:	
+											<ul>
+												<li>Is this personal or enterprise account?</li>
+												<li>How long do they keep versions?</li>
+												<ul>
+													<li>Dropbox: 30 Days</li>
+													<li>Box: 100 Versions (Enterprise)</li>
+													<li>Google Drive: ??? (was 30 days)</li>
+												</ul>
+												<li>Is there is a data retention policy?</li>
+												<li>How secure is the storage? How secure do you need it to be?</li>
+												<li>Can you sync your files locally and is that important?</li>
+											</ul>
+										<strong>The best back up strategy is backing up in multiple locations on <em>and</em> off the web.</strong>
+
+										</p>
+																				
+											<h4>Diff Checking</h4>
+									
+											<p>If you run into a situation where you <em>do</em> need to tell quickly if two files are drastically different, <a href="https://www.diffchecker.com">DiffChecker</a> is a great place to do that.</p>
+										
+											<p align="center";><img src="images/diff-checker-example.png" width=100% alt="This image is a screenshot of what DiffChecker looks like when one submits two files to the software for comparison."></p>
+											
+											<h4>Some words of caution about versioning and the Cloud in your professional lives ...</h4>
+									
+											<p>We are all managing multiple aspects of our identities online. Keep in mind that when doing versioning and file management on your work computers, <a href="http://web.library.yale.edu/lit/workstation-policy">Yale policies on workstation use apply</a>. Especially if you have a personal Google account that you have attached to your web browser, be aware that Google <em>by default</em> will sync all of your data across every device &mdash; you have to disable this manually in the browser settings. This includes bookmarks, web histories, cookies, and more &mdash; point being that this isn’t always data that you want on your work computer.</p>
+											
 								</div>
 							</section>
 
 						<!-- Four -->
 							<section id="four">
 								<div class="container">
-									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
-										<div class="row uniform">
-											<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										</div>
-										<div class="row uniform">
-											<div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-										</div>
-										<div class="row uniform">
-											<div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-										</div>
-										<div class="row uniform">
-											<div class="12u">
-												<ul class="actions">
-													<li><input type="submit" class="special" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+									<h3>Documentation</h3>
+									
+									<p><span class="image left"><img src="images/model-research-memory.png" alt="This is a graph showing that, following the time when someone uses information, documents, or data, it immediately starts to be forgotten - so back things up and keep good documentation!"  /></span>Human memory is fallible. The image to the right is from the journal <em>Ecological Applications</em>, Volume 7:1, p. 330-342, “<a href="http://onlinelibrary.wiley.com/doi/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2/full#i1051-0761-7-1-7-f01">Nongeospatial Metadata for the Ecological Sciences</a>.” It illustrates the fragility of information and what we know. This next section will walk through some helpful tips and pointers for understanding what you need to document.</p>
+									
+									<p>
+									
+									
+												<ul class="feature-icons">
+													<li class="fa-book">Comment your code or spreadsheets detailing the steps you took. </li>
+														<ul><li>Did you use VLOOKUP on usage statistics or publisher data? Why?</li></ul>
+													<li class="fa-book">Clearly define and write out what each of your variables means.</li>
+														<ul><li>How did you characterize “high-use” materials during collections analysis?</li>
+														<li>What does unique_item_investigations mean? (This is a term from the recent COUNTER draft — they provided documentation.)</li></ul>
+													<li class="fa-book">Data has an audience.</li>
+														<ul><li>You in 6 months.</li>
+															<li>Your team.</li>
+															<li>Anyone who needs the data in the future. 💁🏼‍♂️ ➡️ 💾 ➡️ 💁🏾 💿 ➡️ 🤦🏽‍♀️</li>
+														</ul>
+													<li class="fa-book">If you design a survey or form, your documentation will help you structure fields to help people fill them out consistently.</li>
+												</ul>	
+												
+									</p>					
+								
 								</div>
 							</section>
 
 						<!-- Five -->
-						<!--
+						
 							<section id="five">
 								<div class="container">
-									<h3>Elements</h3>
-
-									<section>
-										<h4>Text</h4>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<hr />
-										<header>
-											<h4>Heading with a Subtitle</h4>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<header>
-											<h5>Heading with a Subtitle</h5>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<hr />
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<h5>Heading Level 5</h5>
-										<h6>Heading Level 6</h6>
-										<hr />
-										<h5>Blockquote</h5>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h5>Preformatted</h5>
-										<pre><code>i = 0;
-
-	while (!deck.isInOrder()) {
-	    print 'Iteration ' + i;
-	    deck.shuffle();
-	    i++;
-	}
-
-	print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
-
-									<section>
-										<h4>Lists</h4>
-										<div class="row">
-											<div class="6u 12u(xsmall)">
-												<h5>Unordered</h5>
-												<ul>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-												<h5>Alternate</h5>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-											</div>
-											<div class="6u 12u(xsmall)">
-												<h5>Ordered</h5>
-												<ol>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ol>
-												<h5>Icons</h5>
-												<ul class="icons">
-													<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-													<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-													<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h5>Actions</h5>
-										<ul class="actions">
-											<li><a href="#" class="button special">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-										<ul class="actions small">
-											<li><a href="#" class="button special small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<div class="row">
-											<div class="3u 6u(medium) 12u$(xsmall)">
-												<ul class="actions vertical">
-													<li><a href="#" class="button special">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-													<li><a href="#" class="button alt">Default</a></li>
-												</ul>
-											</div>
-											<div class="3u 6u$(medium) 12u$(xsmall)">
-												<ul class="actions vertical small">
-													<li><a href="#" class="button special small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-													<li><a href="#" class="button alt small">Small</a></li>
-												</ul>
-											</div>
-											<div class="3u 6u(medium) 12u$(xsmall)">
-												<ul class="actions vertical">
-													<li><a href="#" class="button special fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-													<li><a href="#" class="button alt fit">Default</a></li>
-												</ul>
-											</div>
-											<div class="3u 6u$(medium) 12u$(xsmall)">
-												<ul class="actions vertical small">
-													<li><a href="#" class="button special small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-													<li><a href="#" class="button alt small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-									</section>
-
-									<section>
-										<h4>Table</h4>
-										<h5>Default</h5>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-
-										<h5>Alternate</h5>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
-
-									<section>
-										<h4>Buttons</h4>
-										<ul class="actions">
-											<li><a href="#" class="button special">Special</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Alternate</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button special big">Big</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button special fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button alt fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button special fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button special icon fa-download">Icon</a></li>
-											<li><a href="#" class="button icon fa-download">Icon</a></li>
-											<li><a href="#" class="button alt icon fa-check">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button special disabled">Special</span></li>
-											<li><span class="button disabled">Default</span></li>
-											<li><span class="button alt disabled">Alternate</span></li>
-										</ul>
-									</section>
-
-									<section>
-										<h4>Form</h4>
-										<form method="post" action="#">
-											<div class="row uniform">
-												<div class="6u 12u(xsmall)">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-												</div>
-												<div class="6u 12u(xsmall)">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="12u">
-													<div class="select-wrapper">
-														<select name="demo-category" id="demo-category">
-															<option value="">- Category -</option>
-															<option value="1">Manufacturing</option>
-															<option value="1">Shipping</option>
-															<option value="1">Administration</option>
-															<option value="1">Human Resources</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="4u 12u(medium)">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="4u 12u(medium)">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
-												</div>
-												<div class="4u 12u(medium)">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="6u 12u(medium)">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy of this message</label>
-												</div>
-												<div class="6u 12u(medium)">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">I am a human and not a robot</label>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="12u">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="12u">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" /></li>
-														<li><input type="reset" value="Reset" class="alt" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-									<section>
-										<h4>Image</h4>
-										<h5>Fit</h5>
-										<span class="image fit"><img src="images/banner.png" alt="" /></span>
-										<div class="box alt">
-											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-											</div>
-											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-											</div>
-											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</section>
+									<h3>Managing Collaboration</h3>
+									<p>You can (and should) use these same strategies for collaborative work &mdash; and this can come up briefly in meetings. Not everyone is a Searcher or a Structurer, so this will be a dialogue process. Here are some starting places:
+									<ul>
+										<li>Decide on a common storage location that everyone can access.</li>
+									<li>Google Drive allows for live collaborative editing.</li>
+									<li>Git/Github for collaborating on code (or any files).</li>
+									<li>Decide on a common folder structure and naming convention ... <strong>and document it!</strong></li>
+									<li>Keep your local file up-to-date with the group files.</li>
+									<li>If using a cloud service, sync your files.</li>
+								</ul>
+									
+									</p>
 
 								</div>
 							</section>
-						-->
+							
+						<!-- Six -->
+						
+							<section id="Six">
+								<div class="container">
+									<h3>Closing Thoughts</h3>
+									<p><strong>Is this overwhelming?</strong></p>
+									
+									<p>Don’t let the perfect be the enemy of the good.</p>
+									<p align="center";><img src="images/concluding-remarks.png" width=40% alt="This image is a screenshot of what DiffChecker looks like when one submits two files to the software for comparison."></p>
+										
+									<p>You don’t have to do this retroactively &mdash; or for every project at once. Start now, be consistent, and doc on!</p>
+									
+									
+
+								</div>
+							</section>
 
 					</div>
 
@@ -538,7 +301,7 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>YUL File Management Workshop Notes. Developed by Yale University Library staff for an internal workshop adapting research data management workshop takeaways to institutional/professional file contexts.</li><br/><br/><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
